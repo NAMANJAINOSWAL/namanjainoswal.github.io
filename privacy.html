@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - DevFlow Automation Engine</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --primary: #38bdf8;
+      --border: #334155;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 2rem 1.5rem;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 2.5rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      color: var(--primary);
+    }
+    h2 {
+      font-size: 1.3rem;
+      margin: 1.5rem 0 0.5rem;
+      color: var(--text);
+    }
+    p, ul {
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    .highlight-box {
+      background-color: rgba(56, 189, 248, 0.05);
+      border-left: 4px solid var(--primary);
+      padding: 1.25rem;
+      border-radius: 0 8px 8px 0;
+      margin: 1.5rem 0;
+    }
+    .highlight-box p {
+      color: var(--text);
+      margin-bottom: 0;
+    }
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .back-nav {
+      margin-bottom: 1.5rem;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="index.html" class="back-nav">&larr; Back to DevFlow Automation Engine Home</a>
+    <h1>DevFlow Automation Engine - Privacy Policy</h1>
+    <p><em>Last Updated: November 15, 2026</em></p>
+    <p>This Privacy Policy outlines how <strong>DevFlow Automation Engine</strong> collects, uses, protects, and handles your information when you connect and use our application in conjunction with Google APIs.</p>
+
+    <h2>1. Information We Access and Collect</h2>
+    <p>When you authenticate with DevFlow Automation Engine via Google OAuth 2.0, the application requests access to specific scopes:</p>
+    <ul>
+      <li><code>https://www.googleapis.com/auth/youtube.upload</code>: Allows the engine to upload your generated video content directly to your authorized YouTube channel as a Public or Unlisted Short.</li>
+      <li><code>https://www.googleapis.com/auth/youtube.force-ssl</code>: Allows the engine to retrieve video metadata and post video comments containing supplementary educational links or references.</li>
+    </ul>
+    <p>We only store OAuth2 authentication tokens (Refresh Tokens and temporary Access Tokens) necessary to perform automated uploads on your behalf.</p>
+
+    <h2>2. How We Use Google User Data</h2>
+    <p>Your Google user data is strictly utilized for the following functional purposes:</p>
+    <ul>
+      <li>Authenticating your channel identity via YouTube Data API v3.</li>
+      <li>Uploading rendered video files directly to your connected YouTube channel.</li>
+      <li>Setting video titles, descriptions, tags, and category IDs.</li>
+    </ul>
+
+    <!-- MANDATORY GOOGLE LIMITED USE CLAUSE -->
+    <div class="highlight-box">
+      <p><strong>Google API Services User Data Policy Compliance:</strong><br>
+      DevFlow Automation Engine's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank">Google API Services User Data Policy</a>, including the <strong>Limited Use</strong> requirements.</p>
+    </div>
+
+    <h2>3. Data Sharing and Transfer</h2>
+    <p><strong>We do NOT sell, lease, trade, or transfer your personal data or Google OAuth tokens to any third parties.</strong> All data is used strictly within the closed automation pipeline. No Google user data is provided to data brokers, advertising networks, or external analytics firms.</p>
+
+    <h2>4. Data Storage and Security</h2>
+    <p>All sensitive credentials and OAuth tokens are stored in secure, encrypted environment variables and access-controlled databases. We employ industry-standard encryption protocols (HTTPS/TLS) for all network communications with Google APIs.</p>
+
+    <h2>5. User Data Retention and Deletion</h2>
+    <p>You have complete control over your account. You can revoke DevFlow Automation Engine's access to your Google Account at any time by visiting your Google Security Settings at <a href="https://myaccount.google.com/permissions" target="_blank">https://myaccount.google.com/permissions</a>. Once revoked, the application can no longer access your YouTube channel or upload videos.</p>
+
+    <h2>6. Contact Information</h2>
+    <p>If you have any questions about this Privacy Policy or wish to request data deletion, please contact:</p>
+    <p><strong>Developer:</strong> Naman Jain<br>
+    <strong>Email:</strong> <a href="mailto:namanjainoswal@gmail.com">namanjainoswal@gmail.com</a></p>
+  </div>
+</body>
+</html>
